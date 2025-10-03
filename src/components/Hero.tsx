@@ -39,24 +39,7 @@ const Hero = () => {
           </p>
         </div>
       </section>
-      
 
-<section className="relative min-h-screen flex "> 
-  {/* Фоновое изображение */}
-  <div className="absolute inset-0 z-0">
-    <img
-      src="/images/bg-image2.png"
-      alt="Фон серфинга"
-      className="w-full h-full object-cover"
-    />
-  </div>         
-  
-  {/* Текст нормально расположен */}
-  <div className="relative z-10 mt-8"> {/* обычное положение в потоке */}
-    <h2 className="text-[45px] font-bold text-[#002B41] mb-1">СЕРФИНГ</h2>
-    <p className="text-[35px] italic text-red-500">зато стиль жизни</p>
-  </div>
-</section>
     </div>
   );
 };
